@@ -25,7 +25,8 @@ int application_start(int argc, char **argv)
     exit(0);
 #else
     aos_cli_register_command(&ncmd);
-    LOG("Please enter command via CLI: \r\n");
+//    LOG("Please enter command via CLI: \r\n");
+    yts_run(argc, argv);
     aos_loop_run();
     return 0;
 #endif

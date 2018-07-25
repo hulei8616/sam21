@@ -63,8 +63,10 @@
 #define TEST_CONFIG_YLOOP_ENABLED               (1)
 #endif
 #if (TEST_CONFIG_YLOOP_ENABLED)
-#define TEST_CONFIG_YLOOP_EVENT_COUNT           (1000)
-#define TEST_CONFIG_YLOOP_LOOP_COUNT            (5)
+// #define TEST_CONFIG_YLOOP_EVENT_COUNT           (1000)
+// #define TEST_CONFIG_YLOOP_LOOP_COUNT            (5)
+#define TEST_CONFIG_YLOOP_EVENT_COUNT           (10)
+#define TEST_CONFIG_YLOOP_LOOP_COUNT            (2)
 #endif
 
 static unsigned int g_var = 0;

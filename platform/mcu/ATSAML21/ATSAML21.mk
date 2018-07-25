@@ -1,4 +1,4 @@
-NAME := ATSAML21
+NAME := ATSAML21J18B
 HOST_OPENOCD := at91samdXX
 $(NAME)_TYPE := kernel
 
